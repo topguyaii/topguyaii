@@ -6,7 +6,7 @@
 
 <br>
 
-I design and ship autonomous systems end to end: the agent, the data it reads, the money it moves, and the proof that it did the right thing. Most of what I build runs in production with real users and real funds.
+I build products end to end: the interface people use, the agents that think for them, the infrastructure underneath, and the proof that it all works. Most of it runs in production with real users and real money.
 
 <br>
 
@@ -14,11 +14,12 @@ I design and ship autonomous systems end to end: the agent, the data it reads, t
 
 | | |
 |:--|:--|
-| **Agents** | Tool-using agents that plan, act and re-plan. Every claim grounded in data, every action inside a signed mandate. |
-| **Evaluation** | Outputs graded by independent reviewers, rewritten from critique, and measured with controlled benchmarks. Agents that learn their own rules. |
-| **Markets** | Real-time chain indexing, wallet intelligence and 24/7 tokenized equities. Signals tested in public, after costs, whatever they say. |
-| **Money** | Smart accounts, session keys, sponsored gas and custody that never leaves the owner. Books reconciled against the chain. |
-| **Interfaces** | Terminals, MCP servers and product films rendered in code. |
+| **AI agents** | Tool-using agents that plan, act and re-plan. Streaming answers, structured outputs, every claim grounded in data. |
+| **Evaluation** | Outputs graded by independent reviewers, rewritten from critique, measured with controlled benchmarks. Agents that learn their own rules. |
+| **Product** | Consumer web apps, real-time dashboards, terminals and onboarding that feels effortless. Design to deploy. |
+| **Infrastructure** | Event-driven backends, job queues, indexers, scheduled workers and the observability to trust them at 3am. |
+| **Payments & identity** | Passkeys, embedded wallets, smart accounts, agent payments and custody that never leaves the owner. |
+| **On-chain** | Smart contracts, real-time chain indexing and execution across EVM and Solana. |
 
 <br>
 
@@ -28,14 +29,25 @@ I design and ship autonomous systems end to end: the agent, the data it reads, t
 ship small, ship daily
 measure it, then publish the result
 an agent should never grade itself
-real money, real users, real logs
+real users, real money, real logs
 ```
 
 <br>
 
 **Stack**
 
-`TypeScript` `Next.js` `Postgres` `viem` `EVM` `Solana` `LLM agents` `MCP` `Remotion` `Blender`
+| | |
+|:--|:--|
+| **Languages** | `TypeScript` `JavaScript` `Python` `SQL` `Solidity` `Rust` |
+| **AI** | `OpenAI` `Anthropic` `Kimi` `MCP` `Tool calling` `Structured outputs` `LLM evaluation` `Agent payments (x402)` |
+| **Frontend** | `React` `Next.js` `Tailwind CSS` `TanStack Query` `Framer Motion` `GSAP` `Three.js` `React Three Fiber` `Vite` |
+| **Backend** | `Node.js` `Hono` `Express` `Fastify` `tRPC` `FastAPI` `Zod` `Pydantic` `WebSockets` `Server-sent events` |
+| **Data** | `PostgreSQL` `Neon` `Supabase` `Redis` `SQLite` `Drizzle` `Prisma` `SQLAlchemy` |
+| **Jobs & events** | `Inngest` `BullMQ` `Cron workers` `Webhooks` |
+| **Cloud** | `Vercel` `Cloudflare Workers` `Railway` `Fly.io` `Docker` `AWS KMS` `GitHub Actions` `Turborepo` |
+| **Auth** | `WebAuthn passkeys` `Privy` `JWT` `Sign-In with Ethereum` |
+| **Testing** | `Vitest` `Playwright` `Mocha` `Chai` `Foundry` `Certora` |
+| **Web3** | `viem` `ethers` `wagmi` `Hardhat` `OpenZeppelin` `ERC-4337` `ZeroDev` `Solana` |
 
 <br>
 
