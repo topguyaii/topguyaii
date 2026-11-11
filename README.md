@@ -23,13 +23,13 @@ I build products end to end: the interface people use, the agents that think for
 
 <br>
 
-**How I work**
+**Where this is going**
 
 ```
-ship small, ship daily
-measure it, then publish the result
-an agent should never grade itself
-real users, real money, real logs
+agents will run most of the economy. I'm building the ones that do.
+every market on-chain, open 24/7, readable by machines
+one founder with agents, the output of a thousand-person company
+not features, not side projects. category-defining companies.
 ```
 
 <br>
